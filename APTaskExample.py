@@ -37,5 +37,8 @@ text = input("Input a block of text: ")
 # turn text string into a list of words
 words = text.split()
 
-# find the dups and print with color
-highlight_dupes(words,find_duplicates(words))
+# find the dups
+duplacates = find_duplicates(words)
+
+# print with color
+highlight_dupes(words,duplacates)
