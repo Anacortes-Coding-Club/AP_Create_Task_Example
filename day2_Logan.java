@@ -36,8 +36,8 @@ class Day2
                     pos = MovePoint(pos,direction);
                     pos = fixBounds(pos);
                 }
-
-                numbers.add(grid[pos.x][pos.y]);
+                // 2D arrays, y before x :)
+                numbers.add(grid[pos.y][pos.x]);
             }
         } catch (IOException e) {
             System.err.println("Read Fail");
