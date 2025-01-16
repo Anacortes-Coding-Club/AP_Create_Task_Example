@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .score {
+            width: 4em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Math League Stat Sheet</h1>
+    <div>
+        School: <input type="text" >
+        Date: <input type="date" value="2024-12-11">
+        Location: <select><option>Anacortes High School</option></select>
+    </div>
+
+    <div>
+    <h2>Team 1:</h2>
+    Team Name: <input type="text">
+</div>
+    <table>
+        <tr>
+            <th>Grade</th>
+            <th>Name</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>1. <select><option value=""></option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select></td>
+            <td><input type="text"></td>
+            <td><input type="number" name="score" class="score" min="0" max="50"></td>
+        </tr>
+        <tr>
+            <td>2. <select><option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select></td>
+            <td><input type="text"></td>
+            <td><input type="number" name="score" class="score"></td>
+        </tr>
+        <tr>
+            <td>3. <select><option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select></td>
+            <td><input type="text"></td>
+            <td><input type="number" name="score" class="score"></td>
+        </tr>    
+        <tr>
+            <td colspan="2">Individual Total</td>
+            <td><input type="number" name="score" class="score" disabled value="84"></td>
+        </tr>     
+        <tr>
+            <td colspan="2">Team Score</td>
+            <td><input type="number" name="score" class="score"></td>
+        </tr>    
+        <tr>
+            <td colspan="2">Total Score</td>
+            <td><input type="number" name="score" class="score" disabled value="123"></td>
+        </tr>             
+    </table>
+</body>
+</html>
