@@ -1,3 +1,10 @@
+"""
+This script processes a block of text and highlights word duplicates.
+
+Author: Logan Rainchild
+Date: 2024-10-31
+"""
+
 from pprint import pprint
 from colorama import Fore, init, Style
 
@@ -33,6 +40,8 @@ def highlight_dupes(words, ordered_set_words):
 # program printout description
 print("Highlight duplacate words in text")
 text = input("Input a block of text: ")
+
+
 
 # turn text string into a list of words
 words = text.split()
